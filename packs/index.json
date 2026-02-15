@@ -1,0 +1,10 @@
+[
+  {
+    "id": "airport_security",
+    "title": "Airport: Security Check",
+    "category": "Airport",
+    "level": "A2-B1",
+    "language": "en",
+    "scriptFile": "packs/airport_security/script.json"
+  }
+]

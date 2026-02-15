@@ -1,0 +1,138 @@
+[
+  {
+    "role": "Officer",
+    "text": "Good morning. Please place your bags on the belt and step through the metal detector."
+  },
+  {
+    "role": "You",
+    "text": "Good morning. Sure, here you go."
+  },
+  {
+    "role": "Officer",
+    "text": "Do you have any liquids, gels, or electronics in your carry-on?"
+  },
+  {
+    "role": "You",
+    "text": "Yes, I have a water bottle and my laptop."
+  },
+  {
+    "role": "Officer",
+    "text": "Please take out your laptop and place it in a separate bin. The water bottle needs to be empty or discarded."
+  },
+  {
+    "role": "You",
+    "text": "Oh, I didn't know about the water. Can I drink it here?"
+  },
+  {
+    "role": "Officer",
+    "text": "Yes, you can finish it here or pour it out in that trash can over there."
+  },
+  {
+    "role": "You",
+    "text": "Okay, I'll pour it out. Here's my laptop in the bin."
+  },
+  {
+    "role": "Officer",
+    "text": "Thank you. Please remove your jacket, belt, and shoes and place them in the bins as well."
+  },
+  {
+    "role": "You",
+    "text": "Do I really need to take off my shoes?"
+  },
+  {
+    "role": "Officer",
+    "text": "Yes, all footwear must be removed unless you have TSA PreCheck."
+  },
+  {
+    "role": "You",
+    "text": "Alright, here they are."
+  },
+  {
+    "role": "Officer",
+    "text": "Now please step through the metal detector with your arms raised."
+  },
+  {
+    "role": "You",
+    "text": "Like this?"
+  },
+  {
+    "role": "Officer",
+    "text": "Perfect. You can step forward."
+  },
+  {
+    "role": "Automated Voice",
+    "text": "Beep beep beep."
+  },
+  {
+    "role": "Officer",
+    "text": "Sir, the detector went off. Do you have anything metal in your pockets?"
+  },
+  {
+    "role": "You",
+    "text": "Oh, I forgot about my keys and phone. Sorry about that."
+  },
+  {
+    "role": "Officer",
+    "text": "No problem. Please place them in this bin and step through again."
+  },
+  {
+    "role": "You",
+    "text": "Okay, going through now."
+  },
+  {
+    "role": "Officer",
+    "text": "Great, you're all clear. Please collect your belongings from the belt."
+  },
+  {
+    "role": "You",
+    "text": "Thank you. Where do I put my shoes back on?"
+  },
+  {
+    "role": "Officer",
+    "text": "You can use those benches right past the security area."
+  },
+  {
+    "role": "You",
+    "text": "Perfect, thanks for your help."
+  },
+  {
+    "role": "Officer",
+    "text": "You're welcome. Have a safe flight."
+  },
+  {
+    "role": "You",
+    "text": "Thank you, you too."
+  },
+  {
+    "role": "Officer",
+    "text": "Next passenger, please step forward."
+  },
+  {
+    "role": "You",
+    "text": "Excuse me, I think I left my phone in the bin."
+  },
+  {
+    "role": "Officer",
+    "text": "Let me check for you. What does it look like?"
+  },
+  {
+    "role": "You",
+    "text": "It's a black smartphone with a blue case."
+  },
+  {
+    "role": "Officer",
+    "text": "Ah, here it is. Please be more careful with your belongings."
+  },
+  {
+    "role": "You",
+    "text": "I will, thank you so much. I really appreciate it."
+  },
+  {
+    "role": "Officer",
+    "text": "No worries. Gate information is on the departure boards ahead."
+  },
+  {
+    "role": "You",
+    "text": "Got it, thanks again."
+  }
+]

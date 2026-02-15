@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" 
+          content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; connect-src 'self';">
+    <title>Travel English Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Home Screen -->
+    <div id="screen-home" class="screen active">
+        <header>
+            <h1>Travel English Trainer</h1>
+            <button id="btn-settings" class="btn-secondary">⚙️ Settings</button>
+        </header>
+        <main>
+            <div id="pack-list" class="pack-list">
+                <!-- Pack cards will be inserted here -->
+            </div>
+            <div id="error-home" class="error-message" style="display:none;"></div>
+        </main>
+    </div>
+
+    <!-- Trainer Screen -->
+    <div id="screen-trainer" class="screen">
+        <header>
+            <button id="btn-back-trainer" class="btn-secondary">← Back</button>
+            <h2 id="trainer-title">Pack Title</h2>
+        </header>
+        <main class="trainer-layout">
+            <!-- Left: Line List -->
+            <aside class="line-list-container">
+                <div class="controls-top">
+                    <label>
+                        <input type="checkbox" id="review-only-mode">
+                        Review Only (<span id="review-count">0</span>)
+                    </label>
+                </div>
+                <div id="line-list" class="line-list">
+                    <!-- Lines will be inserted here -->
+                </div>
+            </aside>
+
+            <!-- Right: Player + Dictation -->
+            <section class="player-dictation-container">
+                <!-- Player -->
+                <div class="player-panel">
+                    <h3>Player</h3>
+                    <div class="player-controls">
+                        <button id="btn-prev" class="btn-player">⏮ Prev</button>
+                        <button id="btn-play" class="btn-player">▶️ Play</button>
+                        <button id="btn-pause" class="btn-player">⏸ Pause</button>
+                        <button id="btn-next" class="btn-player">⏭ Next</button>
+                    </div>
+                    <div class="player-settings">
+                        <label>
+                            Speed: <span id="rate-value">1.0</span>x
+                            <input type="range" id="rate-slider" min="0.6" max="1.2" step="0.1" value="1.0">
+                        </label>
+                        <label>
+                            Gap (ms): <span id="gap-value">800</span>
+                            <input type="range" id="gap-slider" min="0" max="2000" step="100" value="800">
+                        </label>
+                        <label>
+                            Voice:
+                            <select id="voice-select">
+                                <option value="">Loading...</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div id="player-status" class="status-text"></div>
+                </div>
+
+                <!-- Dictation -->
+                <div class="dictation-panel">
+                    <h3>Dictation</h3>
+                    <button id="btn-replay" class="btn-secondary">🔁 Replay Current Line</button>
+                    <textarea id="dictation-input" placeholder="Type what you hear..." rows="3"></textarea>
+                    <button id="btn-check" class="btn-primary">✓ Check Answer</button>
+                    <div class="score-display">
+                        Score: <span id="score-value">-</span>
+                    </div>
+                    <div id="diff-display" class="diff-display"></div>
+                    <div id="dictation-status" class="status-text"></div>
+                </div>
+
+                <div id="error-trainer" class="error-message" style="display:none;"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Settings Screen -->
+    <div id="screen-settings" class="screen">
+        <header>
+            <button id="btn-back-settings" class="btn-secondary">← Back</button>
+            <h2>Settings</h2>
+        </header>
+        <main class="settings-content">
+            <div class="settings-section">
+                <h3>Playback Settings</h3>
+                <p>Rate: <span id="settings-rate">1.0</span>x</p>
+                <p>Gap: <span id="settings-gap">800</span>ms</p>
+                <p>Voice: <span id="settings-voice">Default</span></p>
+                <p class="info-text">These are automatically saved when you adjust them in the Trainer.</p>
+            </div>
+            <div class="settings-section">
+                <h3>Data Management</h3>
+                <button id="btn-reset-data" class="btn-danger">🗑️ Reset All Data</button>
+                <p class="info-text">This will delete all progress and settings. Cannot be undone.</p>
+            </div>
+            <div id="settings-status" class="status-text"></div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
