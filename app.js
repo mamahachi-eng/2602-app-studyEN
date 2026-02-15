@@ -677,6 +677,29 @@ function replayCurrentLine() {
 
 // ===== Dictation Functions =====
 
+function toggleTranslation() {
+    const translationDisplay = document.getElementById('translation-display');
+    const btn = document.getElementById('btn-show-translation');
+    
+    if (translationDisplay.style.display === 'none') {
+        // Show translation
+        const currentLine = state.currentScript[state.currentLineIndex];
+        if (currentLine && currentLine.translation) {
+            translationDisplay.textContent = currentLine.translation;
+            translationDisplay.style.display = 'block';
+            btn.textContent = '🇯🇵 日本語訳を隠す';
+        } else {
+            translationDisplay.textContent = '（日本語訳がありません）';
+            translationDisplay.style.display = 'block';
+            btn.textContent = '🇯🇵 日本語訳を隠す';
+        }
+    } else {
+        // Hide translation
+        translationDisplay.style.display = 'none';
+        btn.textContent = '🇯🇵 日本語訳を見る';
+    }
+}
+
 function normalizeText(text) {
     return text
         .toLowerCase()
@@ -802,6 +825,12 @@ function clearDictation() {
     document.getElementById('score-value').textContent = '-';
     document.getElementById('diff-display').textContent = '';
     document.getElementById('dictation-status').textContent = '';
+    
+    // Hide translation
+    const translationDisplay = document.getElementById('translation-display');
+    const btn = document.getElementById('btn-show-translation');
+    translationDisplay.style.display = 'none';
+    btn.textContent = '🇯🇵 日本語訳を見る';
 }
 
 // ===== Settings Functions =====
@@ -878,6 +907,7 @@ function setupEventListeners() {
     // Dictation
     document.getElementById('btn-replay').addEventListener('click', replayCurrentLine);
     document.getElementById('btn-check').addEventListener('click', checkDictation);
+    document.getElementById('btn-show-translation').addEventListener('click', toggleTranslation);
     
     // Review mode
     document.getElementById('review-only-mode').addEventListener('change', toggleReviewMode);

@@ -1,138 +1,172 @@
 [
   {
     "role": "Officer",
-    "text": "Good morning. Please place your bags on the belt and step through the metal detector."
+    "text": "Good morning. Please place your bags on the belt and step through the metal detector.",
+    "translation": "おはようございます。バッグをベルトに置いて、金属探知機を通ってください。"
   },
   {
     "role": "You",
-    "text": "Good morning. Sure, here you go."
+    "text": "Good morning. Sure, here you go.",
+    "translation": "おはようございます。はい、どうぞ。"
   },
   {
     "role": "Officer",
-    "text": "Do you have any liquids, gels, or electronics in your carry-on?"
+    "text": "Do you have any liquids, gels, or electronics in your carry-on?",
+    "translation": "機内持ち込み荷物に液体、ジェル、電子機器はありますか？"
   },
   {
     "role": "You",
-    "text": "Yes, I have a water bottle and my laptop."
+    "text": "Yes, I have a water bottle and my laptop.",
+    "translation": "はい、水のボトルとノートパソコンがあります。"
   },
   {
     "role": "Officer",
-    "text": "Please take out your laptop and place it in a separate bin. The water bottle needs to be empty or discarded."
+    "text": "Please take out your laptop and place it in a separate bin. The water bottle needs to be empty or discarded.",
+    "translation": "ノートパソコンを取り出して別のトレイに置いてください。水のボトルは空にするか捨ててください。"
   },
   {
     "role": "You",
-    "text": "Oh, I didn't know about the water. Can I drink it here?"
+    "text": "Oh, I didn't know about the water. Can I drink it here?",
+    "translation": "あ、水のことは知りませんでした。ここで飲んでもいいですか？"
   },
   {
     "role": "Officer",
-    "text": "Yes, you can finish it here or pour it out in that trash can over there."
+    "text": "Yes, you can finish it here or pour it out in that trash can over there.",
+    "translation": "はい、ここで飲み終えるか、あちらのゴミ箱に捨ててください。"
   },
   {
     "role": "You",
-    "text": "Okay, I'll pour it out. Here's my laptop in the bin."
+    "text": "Okay, I'll pour it out. Here's my laptop in the bin.",
+    "translation": "わかりました、捨てます。ノートパソコンをトレイに入れました。"
   },
   {
     "role": "Officer",
-    "text": "Thank you. Please remove your jacket, belt, and shoes and place them in the bins as well."
+    "text": "Thank you. Please remove your jacket, belt, and shoes and place them in the bins as well.",
+    "translation": "ありがとうございます。ジャケット、ベルト、靴も脱いでトレイに入れてください。"
   },
   {
     "role": "You",
-    "text": "Do I really need to take off my shoes?"
+    "text": "Do I really need to take off my shoes?",
+    "translation": "本当に靴を脱がないといけないんですか？"
   },
   {
     "role": "Officer",
-    "text": "Yes, all footwear must be removed unless you have TSA PreCheck."
+    "text": "Yes, all footwear must be removed unless you have TSA PreCheck.",
+    "translation": "はい、TSAプリチェックをお持ちでない限り、すべての履物を脱いでいただく必要があります。"
   },
   {
     "role": "You",
-    "text": "Alright, here they are."
+    "text": "Alright, here they are.",
+    "translation": "わかりました、はいどうぞ。"
   },
   {
     "role": "Officer",
-    "text": "Now please step through the metal detector with your arms raised."
+    "text": "Now please step through the metal detector with your arms raised.",
+    "translation": "では、腕を上げて金属探知機を通ってください。"
   },
   {
     "role": "You",
-    "text": "Like this?"
+    "text": "Like this?",
+    "translation": "こんな感じですか？"
   },
   {
     "role": "Officer",
-    "text": "Perfect. You can step forward."
+    "text": "Perfect. You can step forward.",
+    "translation": "完璧です。前に進んでください。"
   },
   {
     "role": "Automated Voice",
-    "text": "Beep beep beep."
+    "text": "Beep beep beep.",
+    "translation": "ピーピーピー。"
   },
   {
     "role": "Officer",
-    "text": "Sir, the detector went off. Do you have anything metal in your pockets?"
+    "text": "Sir, the detector went off. Do you have anything metal in your pockets?",
+    "translation": "お客様、探知機が反応しました。ポケットに金属製のものはありますか？"
   },
   {
     "role": "You",
-    "text": "Oh, I forgot about my keys and phone. Sorry about that."
+    "text": "Oh, I forgot about my keys and phone. Sorry about that.",
+    "translation": "あ、鍵とスマホを忘れていました。すみません。"
   },
   {
     "role": "Officer",
-    "text": "No problem. Please place them in this bin and step through again."
+    "text": "No problem. Please place them in this bin and step through again.",
+    "translation": "大丈夫です。このトレイに入れて、もう一度通ってください。"
   },
   {
     "role": "You",
-    "text": "Okay, going through now."
+    "text": "Okay, going through now.",
+    "translation": "はい、今通ります。"
   },
   {
     "role": "Officer",
-    "text": "Great, you're all clear. Please collect your belongings from the belt."
+    "text": "Great, you're all clear. Please collect your belongings from the belt.",
+    "translation": "よろしい、問題ありません。ベルトから荷物を受け取ってください。"
   },
   {
     "role": "You",
-    "text": "Thank you. Where do I put my shoes back on?"
+    "text": "Thank you. Where do I put my shoes back on?",
+    "translation": "ありがとうございます。靴はどこで履けばいいですか？"
   },
   {
     "role": "Officer",
-    "text": "You can use those benches right past the security area."
+    "text": "You can use those benches right past the security area.",
+    "translation": "セキュリティエリアを過ぎたところのベンチを使ってください。"
   },
   {
     "role": "You",
-    "text": "Perfect, thanks for your help."
+    "text": "Perfect, thanks for your help.",
+    "translation": "完璧です、ご協力ありがとうございます。"
   },
   {
     "role": "Officer",
-    "text": "You're welcome. Have a safe flight."
+    "text": "You're welcome. Have a safe flight.",
+    "translation": "どういたしまして。良いフライトを。"
   },
   {
     "role": "You",
-    "text": "Thank you, you too."
+    "text": "Thank you, you too.",
+    "translation": "ありがとうございます、あなたもお元気で。"
   },
   {
     "role": "Officer",
-    "text": "Next passenger, please step forward."
+    "text": "Next passenger, please step forward.",
+    "translation": "次のお客様、前に進んでください。"
   },
   {
     "role": "You",
-    "text": "Excuse me, I think I left my phone in the bin."
+    "text": "Excuse me, I think I left my phone in the bin.",
+    "translation": "すみません、トレイにスマホを置き忘れたと思います。"
   },
   {
     "role": "Officer",
-    "text": "Let me check for you. What does it look like?"
+    "text": "Let me check for you. What does it look like?",
+    "translation": "確認しましょう。どんな見た目ですか？"
   },
   {
     "role": "You",
-    "text": "It's a black smartphone with a blue case."
+    "text": "It's a black smartphone with a blue case.",
+    "translation": "青いケースの黒いスマートフォンです。"
   },
   {
     "role": "Officer",
-    "text": "Ah, here it is. Please be more careful with your belongings."
+    "text": "Ah, here it is. Please be more careful with your belongings.",
+    "translation": "ああ、ここにありますね。荷物にはもっと気をつけてください。"
   },
   {
     "role": "You",
-    "text": "I will, thank you so much. I really appreciate it."
+    "text": "I will, thank you so much. I really appreciate it.",
+    "translation": "気をつけます、本当にありがとうございます。感謝します。"
   },
   {
     "role": "Officer",
-    "text": "No worries. Gate information is on the departure boards ahead."
+    "text": "No worries. Gate information is on the departure boards ahead.",
+    "translation": "心配いりません。ゲート情報は前方の出発案内板にあります。"
   },
   {
     "role": "You",
-    "text": "Got it, thanks again."
+    "text": "Got it, thanks again.",
+    "translation": "わかりました、改めてありがとうございます。"
   }
 ]
